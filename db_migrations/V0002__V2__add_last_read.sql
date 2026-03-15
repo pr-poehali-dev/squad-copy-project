@@ -1,0 +1,2 @@
+
+ALTER TABLE squad_chat_members ADD COLUMN IF NOT EXISTS last_read TIMESTAMP DEFAULT NOW();
